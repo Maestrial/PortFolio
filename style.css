@@ -1,0 +1,113 @@
+.rouge{
+    color: rgba(122, 42, 42);
+}
+body{
+    background: url('ImagesPortfolio/mongolfiere.jpg');
+    background-size: cover;
+    /*height: 100vh;*/
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Noto Serif', serif;
+    font-weight: 100;
+    overflow-y: hidden;
+    height :100vh;
+    
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    z-index: 4185151285151;
+}
+.logotop{
+    margin-left:2%;
+    box-shadow: 6px 3px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    
+}
+.nav{
+    width: 460px;
+}
+.acc{
+  font-size: 1.5rem;
+   list-style: none;
+   
+    margin-top: 4%;
+    text-decoration-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.acc li{
+    margin-right: 4vw;
+}
+
+li a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration:none; 
+    transition:0.5s;
+    
+   
+
+}
+li a:hover {
+    padding-left: 6%;
+    border-left: 0.1rem solid ;
+    color:rgba(122, 42, 42);
+    text-decoration:none; 
+    opacity: 1;
+}
+
+
+main {
+    height: 60vh;
+    
+}
+
+.contain {
+    
+    transform: translateY(90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divsousmain{
+    width: 100%;
+   margin-top: 6%;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+ 
+}
+h3{
+    font-weight: lighter;
+    padding-right: 2%;
+   
+}
+h1{
+    padding-left: 2%;
+    border-left:0.3vw  solid;
+    font-size: 6vw;
+    margin-bottom:0%;
+    font-weight: lighter;
+    max-height: 200px;
+}
+@media  (min-width: 350px){
+    
+    h1 {
+    font-size: 75px;
+
+}}
+h2{
+    font-size: 1.5vw;
+    margin:0px;
+    margin-bottom: 10;
+    font-weight: lighter;
+}
+@media  (min-width: 350px){
+
+    h2 {
+    font-size: 20px;
+
+}}
